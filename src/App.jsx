@@ -7,7 +7,7 @@ const App = () => {
     return (
         <Router>
             <>
-            <p><Link to="/"><button className="btn btn-warning font-weight-bold">Home!</button></Link></p>
+            <p><Link to="/"><button className="btn btn-warning font-weight-boldnpm start">Home!</button></Link></p>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/details/:id" component={Details} />
