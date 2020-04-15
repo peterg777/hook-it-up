@@ -20,7 +20,7 @@ const Home = () => {
                         {users.map(user => (
 
                             <p key={user.id} className="shadow">
-                                <li className="list-group-item body-text"> <Link className="btn btn-success font-weight-bolder" to={`${user.id}/details`}>View Details:{user.id}</Link></li>
+                                <li className="list-group-item body-text"> <Link className="btn btn-success font-weight-bolder" to={`${user.id}/details:id`}>View Details:{user.id}</Link></li>
                                 <li className="list-group-item body-text">{user.name}</li>
                                 <li className="list-group-item body-text">{user.username}</li>
                                 <li className="list-group-item body-text">{user.email}</li>
