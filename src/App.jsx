@@ -6,13 +6,11 @@ import Details from './components/Details';
 const App = () => {
     return (
         <Router>
-            <>
-            <p><Link to="/"><button className="btn btn-warning font-weight-boldnpm start">Home!</button></Link></p>
+          <Link to="/"><button className="btn btn-warning font-weight-boldnpm start">Home!</button></Link>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/details/:id" component={Details} />
         </Switch>
-        </>
       </Router>
     );
   }
